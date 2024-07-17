@@ -37,3 +37,23 @@
 .selected {
   box-shadow: 0 0 30px 30px rgba(255, 255, 255, 0.5);
 }
+
+button {
+  font-size: 20px;
+  font-family: monospace;
+  color: red;
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+
+button:hover {
+  background-color: beige;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+}
